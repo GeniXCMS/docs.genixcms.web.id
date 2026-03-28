@@ -1131,6 +1131,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#3-advanced-customization-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Advanced Customization &amp; Best Practices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Advanced Customization &amp; Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-typography-prefix-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Typography Prefix Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-overriding-framework-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Overriding Framework Styles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-global-notification-toast-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Global Notification &amp; Toast System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-instance-vs-static-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Instance vs Static Calls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2888,6 +2949,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#3-advanced-customization-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Advanced Customization &amp; Best Practices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Advanced Customization &amp; Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-typography-prefix-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Typography Prefix Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-overriding-framework-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Overriding Framework Styles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-global-notification-toast-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Global Notification &amp; Toast System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-instance-vs-static-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Instance vs Static Calls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -3071,6 +3193,34 @@
 <ul>
 <li>Use <strong>Snake Case</strong> for <code>OptionsBuilder</code> field names (e.g., <code>theme_primary_color</code>).</li>
 <li>Use <strong>Explicit Names</strong> for <code>UiBuilder</code> buttons to avoid collisions (e.g., <code>'name' =&gt; 'save_mod_settings'</code>).</li>
+</ul>
+<hr />
+<h2 id="3-advanced-customization-best-practices">3. Advanced Customization &amp; Best Practices<a class="headerlink" href="#3-advanced-customization-best-practices" title="Permanent link">&para;</a></h2>
+<h3 id="1-typography-prefix-mapping">1. Typography Prefix Mapping<a class="headerlink" href="#1-typography-prefix-mapping" title="Permanent link">&para;</a></h3>
+<p>When using <code>typo_row</code> in <code>OptionsBuilder</code>, ensure you use these standard prefixes to leverage the automatic CSS generation engine:
+- <code>typo_body</code>: Controls main document flow and paragraphs.
+- <code>typo_nav</code>: Targets the navigation bar and primary link structures.
+- <code>typo_brand</code>: Specifically for site-wide logo/identity typography.
+- <code>typo_h1</code> - <code>typo_h6</code>: Granular control over the page's heading hierarchy.
+- <code>typo_meta</code>: For article data like dates, author names, and taxonomies.
+- <code>typo_list</code>: Standardizes unordered and ordered list presentations.
+- <code>typo_blockquote</code>: Controls stylistic citations and blockquote elements.
+- <code>typo_pagination</code>: For UI navigation buttons in multi-page indexes.</p>
+<h3 id="2-overriding-framework-styles">2. Overriding Framework Styles<a class="headerlink" href="#2-overriding-framework-styles" title="Permanent link">&para;</a></h3>
+<p>You can pass theme or module-specific overrides using the <code>extraCssRules</code> parameter in the <code>OptionsBuilder::generateFrontendCSS</code> configuration array:
+<div class="codehilite"><pre><span></span><code>{OptionsBuilder::generateFrontendCSS($opt, [
+    &#39;extraCssRules&#39; =&gt; &#39;.my-special-selector { color: var(--primary-color) !important; }&#39;
+])|noescape}
+</code></pre></div></p>
+<h3 id="3-global-notification-toast-system">3. Global Notification &amp; Toast System<a class="headerlink" href="#3-global-notification-toast-system" title="Permanent link">&para;</a></h3>
+<p>GeniXCMS v2.0+ utilizes a unified AJAX notification system provided by <code>OptionsBuilder</code>:
+- <strong>ID Requirement</strong>: Ensure your success/error elements use <code>#gx-toast-container</code> for the wrapper and <code>.gx-toast</code> for individual messages.
+- <strong>Auto-Extraction</strong>: The framework's AJAX handler automatically detects and displays these notifications from any theme's <code>options.php</code> response.</p>
+<h3 id="4-instance-vs-static-calls">4. Instance vs Static Calls<a class="headerlink" href="#4-instance-vs-static-calls" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use <code>new OptionsBuilder($opt)</code> for rendering the admin panel.</li>
+<li>Use <code>OptionsBuilder::renderCSS()</code> (static) to inject admin-side styles.</li>
+<li>Use <code>OptionsBuilder::generateFrontendCSS()</code> (static) in your theme's frontend header.</li>
 </ul>
 
 
