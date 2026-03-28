@@ -843,7 +843,63 @@
   <span class="md-ellipsis">
     
   
-    Using the REST API
+    Internal Ajax API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/using-vite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asset Bundling (Vite)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/using-ui-builders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI Builders
   
 
     
@@ -912,6 +968,34 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acl.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acl Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1068,6 +1152,34 @@
     
   
     Comments Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../container.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Container Class
   
 
     
@@ -1621,6 +1733,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../migration.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Migration Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../mod.class/" class="md-nav__link">
         
   
@@ -1649,6 +1789,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../model.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Model Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../options.class/" class="md-nav__link">
         
   
@@ -1657,6 +1825,34 @@
     
   
     Options Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optionsbuilder.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OptionsBuilder Class
   
 
     
@@ -1817,6 +2013,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../query.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Query Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rest-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RESTful API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../router.class/" class="md-nav__link">
         
   
@@ -1853,6 +2105,34 @@
     
   
     Rss Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security Infrastructure
   
 
     
@@ -2133,6 +2413,34 @@
     
   
     Upload Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uibuilder.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UiBuilder Class
   
 
     
@@ -2501,7 +2809,12 @@
 <p class="admonition-title">Info</p>
 <p>This Documentation is still need improvement.</p>
 </div>
-<p>The <strong>Db</strong> class is the database abstraction layer for GeniXCMS. It primarily uses the <code>mysqli</code> driver, with support for advanced query features and result object wrapping.</p>
+<p>The <strong>Db</strong> class is the foundational database abstraction layer for GeniXCMS. It uses <strong>PDO</strong> to handle secure, prepared-statement queries across multiple database drivers (MySQL, PostgreSQL, SQLite).</p>
+<blockquote>
+<p>[!IMPORTANT]
+Since version 2.0.0, it is highly recommended to use the <strong><a href="../query.class/">Query Builder</a></strong> or the <strong><a href="../model.class/">ORM / Model</a></strong> layer for standard data operations. They provide a more maintainable, expressive, and safer interface than direct <code>Db</code> calls.</p>
+</blockquote>
+<hr />
 <h2 id="connection">Connection<a class="headerlink" href="#connection" title="Permanent link">&para;</a></h2>
 <p>Database credentials are automatically loaded from <code>inc/config/config.php</code>. The connection is established during system initialization.</p>
 <h2 id="query-method">Query Method<a class="headerlink" href="#query-method" title="Permanent link">&para;</a></h2>
