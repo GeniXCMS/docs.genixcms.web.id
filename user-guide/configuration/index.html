@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration" class="md-skip">
+        <a href="#system-configuration" class="md-skip">
           Skip to content
         </a>
       
@@ -258,18 +258,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -290,7 +292,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -385,15 +387,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
     
@@ -409,10 +404,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
             
   
   
@@ -430,8 +425,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -592,10 +587,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-settings" class="md-nav__link">
+  <a href="#general" class="md-nav__link">
     <span class="md-ellipsis">
       
-        General Settings
+        🌐 General Settings
       
     </span>
   </a>
@@ -606,19 +601,19 @@
   <a href="#e-mail" class="md-nav__link">
     <span class="md-ellipsis">
       
-        E-Mail
+        📧 E-Mail &amp; SMTP
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="E-Mail">
+    <nav class="md-nav" aria-label="📧 E-Mail &amp; SMTP">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#php-mail" class="md-nav__link">
+  <a href="#php-mail-default" class="md-nav__link">
     <span class="md-ellipsis">
       
-        PHP Mail
+        📤 PHP Mail (Default)
       
     </span>
   </a>
@@ -629,7 +624,7 @@
   <a href="#smtp-server" class="md-nav__link">
     <span class="md-ellipsis">
       
-        SMTP Server
+        🚀 SMTP Server
       
     </span>
   </a>
@@ -642,10 +637,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#social" class="md-nav__link">
+  <a href="#permalinks" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Social
+        🔗 Permalinks (Smart URL)
       
     </span>
   </a>
@@ -653,49 +648,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#logo" class="md-nav__link">
+  <a href="#branding-logo-favicon" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Logo
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Logo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#logo_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Logo
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#favicon" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Favicon
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#library" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Library
+        🎨 Branding (Logo &amp; Favicon)
       
     </span>
   </a>
@@ -703,10 +659,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#posts" class="md-nav__link">
+  <a href="#library-frontend-cdn" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Posts
+        📚 Library &amp; Frontend CDN
       
     </span>
   </a>
@@ -714,10 +670,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#payment" class="md-nav__link">
+  <a href="#content-pagination" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Payment
+        📝 Content &amp; Pagination
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ Security &amp; Performance
       
     </span>
   </a>
@@ -748,6 +715,34 @@
     
   
     Posts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../post-types-and-params/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Post Types & Params
   
 
     
@@ -852,6 +847,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../acl-manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ACL Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../themes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Themes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../menus/" class="md-nav__link">
         
   
@@ -860,6 +911,34 @@
     
   
     Menus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../widgets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widgets
   
 
     
@@ -908,6 +987,146 @@
   
   
     <li class="md-nav__item">
+      <a href="../media-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Media Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multilanguage-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-language
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permalink-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Permalink Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comment-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comment Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cache-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cache Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cli/" class="md-nav__link">
         
   
@@ -935,6 +1154,14 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
@@ -951,10 +1178,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -972,8 +1199,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1054,6 +1281,62 @@
     
   
     Using Hooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/using-admin-menu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Menu Registration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/using-cron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Cron
   
 
     
@@ -1173,10 +1456,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -1194,8 +1477,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1220,6 +1503,62 @@
     
   
     Acl Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/adminmenu.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AdminMenu Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/api.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Api Class
   
 
     
@@ -1472,6 +1811,34 @@
     
   
     Control Layer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/cron.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cron Class
   
 
     
@@ -2612,6 +2979,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../api/vite.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vite Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../api/widget.class/" class="md-nav__link">
         
   
@@ -2722,10 +3117,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-settings" class="md-nav__link">
+  <a href="#general" class="md-nav__link">
     <span class="md-ellipsis">
       
-        General Settings
+        🌐 General Settings
       
     </span>
   </a>
@@ -2736,19 +3131,19 @@
   <a href="#e-mail" class="md-nav__link">
     <span class="md-ellipsis">
       
-        E-Mail
+        📧 E-Mail &amp; SMTP
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="E-Mail">
+    <nav class="md-nav" aria-label="📧 E-Mail &amp; SMTP">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#php-mail" class="md-nav__link">
+  <a href="#php-mail-default" class="md-nav__link">
     <span class="md-ellipsis">
       
-        PHP Mail
+        📤 PHP Mail (Default)
       
     </span>
   </a>
@@ -2759,7 +3154,7 @@
   <a href="#smtp-server" class="md-nav__link">
     <span class="md-ellipsis">
       
-        SMTP Server
+        🚀 SMTP Server
       
     </span>
   </a>
@@ -2772,10 +3167,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#social" class="md-nav__link">
+  <a href="#permalinks" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Social
+        🔗 Permalinks (Smart URL)
       
     </span>
   </a>
@@ -2783,49 +3178,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#logo" class="md-nav__link">
+  <a href="#branding-logo-favicon" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Logo
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Logo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#logo_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Logo
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#favicon" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Favicon
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#library" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Library
+        🎨 Branding (Logo &amp; Favicon)
       
     </span>
   </a>
@@ -2833,10 +3189,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#posts" class="md-nav__link">
+  <a href="#library-frontend-cdn" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Posts
+        📚 Library &amp; Frontend CDN
       
     </span>
   </a>
@@ -2844,10 +3200,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#payment" class="md-nav__link">
+  <a href="#content-pagination" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Payment
+        📝 Content &amp; Pagination
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ Security &amp; Performance
       
     </span>
   </a>
@@ -2874,75 +3241,104 @@
   
 
 
-<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
+<h1 id="system-configuration">System Configuration<a class="headerlink" href="#system-configuration" title="Permanent link">&para;</a></h1>
 <hr />
-<p>After You logged in to the Administrator area. Now it's time to Setting Up your site. </p>
-<p>Click on the Setting Menu on the left side. 
-A new page will shows up .</p>
-<p><br /><br /></p>
-<h2 id="general-settings">General Settings<a class="headerlink" href="#general-settings" title="Permanent link">&para;</a></h2>
+<p>GeniXCMS provides a centralized management interface to fine-tune your website's behavior, SEO metadata, and technical integrations. Access these tools by navigating to <strong>Settings</strong> in the main administration sidebar.</p>
 <hr />
-<p><img alt="General Settings" src="../../img/general-settings.png" /></p>
-<p>There are some input fields appear. Fill in the necessary field. Especially :</p>
+<h2 id="general">🌐 General Settings<a class="headerlink" href="#general" title="Permanent link">&para;</a></h2>
+<p>This section defines the core identity of your website.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Field</th>
+<th style="text-align: left;">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Site Name</strong></td>
+<td style="text-align: left;">The primary title of your website.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Site Slogan</strong></td>
+<td style="text-align: left;">A brief, catchy phrase that appears next to your site name.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Keywords</strong></td>
+<td style="text-align: left;">Comma-separated terms for search engine indexing.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Description</strong></td>
+<td style="text-align: left;">A concise summary of your site's content for SEO snippets.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Site E-Mail</strong></td>
+<td style="text-align: left;">The default address used for system notifications and "From" headers.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="e-mail">📧 E-Mail &amp; SMTP<a class="headerlink" href="#e-mail" title="Permanent link">&para;</a></h2>
+<p>Configure how your server dispatches outgoing communications.</p>
+<h3 id="php-mail-default">📤 PHP Mail (Default)<a class="headerlink" href="#php-mail-default" title="Permanent link">&para;</a></h3>
+<p>Recommended for simple hosting environments. It uses the server's internal mail binary to send messages. No additional configuration is required.</p>
+<h3 id="smtp-server">🚀 SMTP Server<a class="headerlink" href="#smtp-server" title="Permanent link">&para;</a></h3>
+<p>Recommended for high-deliverability requirements (e.g., using Gmail, SendGrid, or Mailgun).
+- <strong>SMTP Host</strong>: The address of your mail provider (e.g., <code>smtp.gmail.com</code>).
+- <strong>SMTP Port</strong>: Usually <code>465</code> (SSL/TLS) or <code>587</code> (STARTTLS).
+- <strong>Authentication</strong>: Input your full email address and the corresponding password or App Password.</p>
+<hr />
+<h2 id="permalinks">🔗 Permalinks (Smart URL)<a class="headerlink" href="#permalinks" title="Permanent link">&para;</a></h2>
+<p>The Permalink system allows you to transform complex PHP queries into clean, SEO-friendly paths.</p>
 <ul>
-<li>Website Slogan</li>
-<li>Website Keywords</li>
-<li>Website Description</li>
+<li><strong>Standard</strong>: <code>yoursite.com/index.php?post=123</code></li>
+<li><strong>Smart URL</strong>: <code>yoursite.com/my-awesome-post.html</code></li>
 </ul>
-<p>Those are important. Especially for SEO.</p>
-<p>After those are filled up, go to the next tab.</p>
-<p><br /><br /></p>
-<h2 id="e-mail">E-Mail<a class="headerlink" href="#e-mail" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>Server Config</strong>: Enabling Smart URLs requires <strong><code>mod_rewrite</code></strong> on Apache (handled via <code>.htaccess</code>) or specific location blocks on Nginx. If your site returns a 404 after enabling this, check your server's rewrite engine status.</p>
+</blockquote>
 <hr />
-<p><img alt="EMail Settings" src="../../img/email-settings.png" /></p>
-<p>This page is for email sending features. There are some options to be picked. </p>
-<h3 id="php-mail">PHP Mail<a class="headerlink" href="#php-mail" title="Permanent link">&para;</a></h3>
-<p>If you want to send email just using your mail program just pick <strong>Mail</strong> at the <strong>Mail/SMTP</strong> options. And the other field is not necessary. </p>
-<h3 id="smtp-server">SMTP Server<a class="headerlink" href="#smtp-server" title="Permanent link">&para;</a></h3>
-<p>If You want to use outgoing email using SMTP so pick <strong>SMTP</strong> at the <strong>Mail/SMTP</strong> options. And fill in other input. </p>
-<p>Choose whether the SMTP is using Plain Authentification or Use SSL. </p>
-<p>Fill the SMTP Mailserver, SMTP Username, and SMTP Password you had. </p>
-<p><br /><br /></p>
-<h2 id="social">Social<a class="headerlink" href="#social" title="Permanent link">&para;</a></h2>
-<hr />
-<p>This is Optional. Depends on the Themes you are using. If no options of using this so left it blank. </p>
-<p><br /><br /></p>
-<h2 id="logo">Logo<a class="headerlink" href="#logo" title="Permanent link">&para;</a></h2>
-<hr />
-<p><img alt="Logo Settings" src="../../img/logo-settings.png" /></p>
-<h3 id="logo_1">Logo<a class="headerlink" href="#logo_1" title="Permanent link">&para;</a></h3>
-<p>Now it's time to personalize your site. Upload Your own Logo. <strong>Choose a small images</strong> please, so it won't make your site bloating. You can choose wheter Upload it by your self or just use already online Logo. </p>
-<p>If you want to use already uploaded logo at the internet, just thick the checkbox button at the <strong>Use Image URL</strong> and paste the image address. </p>
-<p>It automatically will use the image url rather than the Uploaded Logo. </p>
-<h3 id="favicon">Favicon<a class="headerlink" href="#favicon" title="Permanent link">&para;</a></h3>
-<p>Insert your favicon url. Full url if i may say. Since it won't trouble when the <strong>SMART_URL</strong> is activated. </p>
-<p><br /><br /></p>
-<h2 id="library">Library<a class="headerlink" href="#library" title="Permanent link">&para;</a></h2>
-<hr />
-<p><img alt="Library Settings" src="../../img/library-settings.png" /></p>
-<p>These are the dependencies we had to load for website to work well. We need :</p>
+<h2 id="branding-logo-favicon">🎨 Branding (Logo &amp; Favicon)<a class="headerlink" href="#branding-logo-favicon" title="Permanent link">&para;</a></h2>
+<p>Personalize your site's visual identity.</p>
 <ul>
-<li>jQuery</li>
-<li>Fontawesome</li>
-<li>Bootstrap</li>
-<li>Summernote Editor</li>
-<li>Bootstrap Validator</li>
+<li><strong>Primary Logo</strong>: Upload a high-quality (but optimized) image or provide a direct external URL. </li>
+<li><strong>Favicon</strong>: The small icon appearing in browser tabs. Always provide a full, absolute URL to avoid path resolution issues during routing.</li>
+<li><strong>Logo Mode</strong>: Switch between displaying the <strong>Image Logo</strong> or the <strong>Text-based Site Name</strong>.</li>
 </ul>
-<p>jQuery and Fontawesome are from CDN and others are at assets directory.</p>
-<p>For jQuery, You can input which version you wanto to use. Just fill in the version number. Others are still not supported yet. </p>
-<p><br /><br /></p>
-<h2 id="posts">Posts<a class="headerlink" href="#posts" title="Permanent link">&para;</a></h2>
 <hr />
-<p><img alt="Posts Settings" src="../../img/posts-settings.png" /></p>
-<p><strong>Post Per Page</strong> is the Options how many posts are appear at the front page. </p>
-<p><strong>Pinger</strong> is an address of Pinger for search engine. We already insert some. Just add it if you want.</p>
-<p><strong>Pagination</strong> type, there are two options. First is Number, and second is Pager. <strong>Number</strong> means the page will shows as numbers. and pager the page will shows as <strong>Prev</strong> and <strong>Next</strong>.</p>
-<p><br /><br /></p>
-<h2 id="payment">Payment<a class="headerlink" href="#payment" title="Permanent link">&para;</a></h2>
+<h2 id="library-frontend-cdn">📚 Library &amp; Frontend CDN<a class="headerlink" href="#library-frontend-cdn" title="Permanent link">&para;</a></h2>
+<p>GeniXCMS relies on several industry-standard frontend libraries. You can manage their loading behavior here.</p>
+<ul>
+<li><strong>jQuery</strong>: Enter the specific version number (e.g., <code>3.7.1</code>) to load from a global CDN.</li>
+<li><strong>FontAwesome</strong>: Enable or disable the FontAwesome icon stack.</li>
+<li><strong>Bootstrap</strong>: Toggle the core layout framework.</li>
+<li><strong>Summernote</strong>: Enable the rich-text editor for the dashboard and frontend forms.</li>
+</ul>
 <hr />
-<p><img alt="Payment Settings" src="../../img/payment-settings.png" /></p>
-<p>Currently We are still in developing the Payment Class. Especially the <strong>PayPal Class</strong>. </p>
-<p>Even that, this field is functional. And can be run, see our sample store <a href="http://serieshop2.gxapp.top">SerieShop2</a> </p>
+<h2 id="content-pagination">📝 Content &amp; Pagination<a class="headerlink" href="#content-pagination" title="Permanent link">&para;</a></h2>
+<p>Define how your posts and pages are presented to visitors.</p>
+<ul>
+<li><strong>Posts Per Page</strong>: The maximum number of items visible on archive and search pages.</li>
+<li><strong>Pagination Style</strong>:<ul>
+<li><strong>Numbered</strong>: Displays a list of page numbers (<code>1</code>, <code>2</code>, <code>3</code>...).</li>
+<li><strong>Pager</strong>: Displays simple <strong>Previous</strong> and <strong>Next</strong> navigation links.</li>
+</ul>
+</li>
+<li><strong>Search Engine Pinger</strong>: A list of RPC-XML pinger services to notify search engines whenever you publish new content.</li>
+</ul>
+<hr />
+<h2 id="security-performance">🛡️ Security &amp; Performance<a class="headerlink" href="#security-performance" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Output Caching</strong>: Enable to store rendered pages in the <code>assets/cache</code> directory for faster load times.</li>
+<li><strong>Maintenance Mode</strong>: Take your site offline for visitors while you perform updates.</li>
+<li><strong>CSP Headers</strong>: Toggle the Content Security Policy layers (see <a href="../../api/security/">Security API</a> for technical details).</li>
+</ul>
+<hr />
+<blockquote>
+<p>[!TIP]
+<strong>SEO Tip</strong>: Always fill in the <strong>Website Description</strong> and <strong>Keywords</strong> in General Settings. These are the primary sources for meta tags generated in the <code>&lt;head&gt;</code> of your theme.</p>
+</blockquote>
 
 
 
@@ -2972,7 +3368,7 @@ A new page will shows up .</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2026, build with <i class='fa fa-heart'></i> by GeniXCMS
+      Copyright &copy; 2014-2026, build with <i class='fa fa-heart'></i> by GeniXCMS
     </div>
   
   
