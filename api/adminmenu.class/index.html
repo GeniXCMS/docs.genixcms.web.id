@@ -18,7 +18,7 @@
         <link rel="prev" href="../acl.class/">
       
       
-        <link rel="next" href="../api.class/">
+        <link rel="next" href="../ajax.class/">
       
       
         
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#programmable-admin-navigation-class" class="md-skip">
+        <a href="#adminmenu-class-api-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -1426,6 +1426,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../how-to/media-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Media Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../how-to/custom-urls/" class="md-nav__link">
         
   
@@ -1490,6 +1518,34 @@
     
   
     System Translation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/using-options-builders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Options Builders
   
 
     
@@ -1671,6 +1727,118 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/customizing-user-profiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customizing User Profiles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/admin-themes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Themes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/create-modular-widget-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modular Widget Blocks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to/programmable-ajax-dashboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ajax Dashboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1822,33 +1990,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
+  <a href="#static-registration-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚡ How It Works
+        🏗️ Static Registration Methods
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#menu-item-schema" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📐 Menu Item Schema
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📐 Menu Item Schema">
+    <nav class="md-nav" aria-label="🏗️ Static Registration Methods">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#access-levels" class="md-nav__link">
+  <a href="#adminmenuaddarray-item-void" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Access Levels
+        AdminMenu::add(array $item): void
       
     </span>
   </a>
@@ -1856,10 +2013,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#menu-positions" class="md-nav__link">
+  <a href="#adminmenuaddchildstring-parentid-array-child-void" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Menu Positions
+        AdminMenu::addChild(string $parentId, array $child): void
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adminmenuaddchildrenstring-parentid-array-children-void" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::addChildren(string $parentId, array $children): void
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adminmenuremovestring-id-void" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::remove(string $id): void
       
     </span>
   </a>
@@ -1872,88 +2051,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#public-api-reference" class="md-nav__link">
+  <a href="#data-retrieval-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚙️ Public API Reference
+        ⚡ Data &amp; Retrieval Methods
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="⚙️ Public API Reference">
+    <nav class="md-nav" aria-label="⚡ Data &amp; Retrieval Methods">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adminmenuaddarray-item" class="md-nav__link">
+  <a href="#adminmenugetitemsstring-position-null-array" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AdminMenu::add(array $item)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenuaddchildstring-parentid-array-child" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::addChild(string $parentId, array $child)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenuaddchildrenstring-parentid-array-children" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::addChildren(string $parentId, array $children)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenuremovestring-id" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::remove(string $id)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenugetitemsstring-position" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::getItems(?string $position)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenurendersidebarstring-position" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::renderSidebar(?string $position)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenurendertopnavstring-position" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::renderTopNav(?string $position)
+        AdminMenu::getItems(?string $position = null): array
       
     </span>
   </a>
@@ -1966,13 +2079,113 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#child-items-schema" class="md-nav__link">
+  <a href="#rendering-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🔏 Child Items Schema
+        🎨 Rendering Methods
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="🎨 Rendering Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adminmenurendersidebarstring-position-null-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::renderSidebar(?string $position = null): string
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adminmenurendertopnavstring-position-null-bool-nested-false-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::renderTopNav(?string $position = null, bool $nested = false): string
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internal-logic-active-states" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Internal Logic: Active States
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-menu-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Core Menu Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Implementation Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Implementation Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-registering-a-modular-parent-with-children" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Registering a Modular Parent with Children
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-injecting-into-a-core-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Injecting into a Core Menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-removing-navigation-for-specific-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Removing Navigation for Specific Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2003,6 +2216,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../ajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ajax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ajax-services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ajax Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../api.class/" class="md-nav__link">
         
   
@@ -2011,6 +2280,34 @@
     
   
     Api Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apiajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ApiAjax Class
   
 
     
@@ -2227,6 +2524,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../commentsajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CommentsAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../container.class/" class="md-nav__link">
         
   
@@ -2395,6 +2720,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../dummyajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DummyAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../editor.class/" class="md-nav__link">
         
   
@@ -2423,6 +2776,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../elfinderajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ElfinderAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../files.class/" class="md-nav__link">
         
   
@@ -2431,6 +2812,34 @@
     
   
     Files Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../go-service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Go Service
   
 
     
@@ -2655,6 +3064,34 @@
     
   
     Marketplace Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marketplaceajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MarketplaceAjax Class
   
 
     
@@ -3011,6 +3448,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../postsajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PostsAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../postsapi.class/" class="md-nav__link">
         
   
@@ -3131,6 +3596,34 @@
     
   
     Rss Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../saveimageajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SaveimageAjax Class
   
 
     
@@ -3403,6 +3896,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../tagsajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TagsAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../theme.class/" class="md-nav__link">
         
   
@@ -3515,6 +4036,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../updatesajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UpdatesAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../uibuilder.class/" class="md-nav__link">
         
   
@@ -3579,6 +4128,62 @@
     
   
     User Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../userajax.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UserAjax Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../userprofile.class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UserProfile Class
   
 
     
@@ -3765,33 +4370,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
+  <a href="#static-registration-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚡ How It Works
+        🏗️ Static Registration Methods
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#menu-item-schema" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📐 Menu Item Schema
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📐 Menu Item Schema">
+    <nav class="md-nav" aria-label="🏗️ Static Registration Methods">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#access-levels" class="md-nav__link">
+  <a href="#adminmenuaddarray-item-void" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Access Levels
+        AdminMenu::add(array $item): void
       
     </span>
   </a>
@@ -3799,10 +4393,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#menu-positions" class="md-nav__link">
+  <a href="#adminmenuaddchildstring-parentid-array-child-void" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Menu Positions
+        AdminMenu::addChild(string $parentId, array $child): void
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adminmenuaddchildrenstring-parentid-array-children-void" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::addChildren(string $parentId, array $children): void
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adminmenuremovestring-id-void" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::remove(string $id): void
       
     </span>
   </a>
@@ -3815,88 +4431,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#public-api-reference" class="md-nav__link">
+  <a href="#data-retrieval-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚙️ Public API Reference
+        ⚡ Data &amp; Retrieval Methods
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="⚙️ Public API Reference">
+    <nav class="md-nav" aria-label="⚡ Data &amp; Retrieval Methods">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adminmenuaddarray-item" class="md-nav__link">
+  <a href="#adminmenugetitemsstring-position-null-array" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AdminMenu::add(array $item)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenuaddchildstring-parentid-array-child" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::addChild(string $parentId, array $child)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenuaddchildrenstring-parentid-array-children" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::addChildren(string $parentId, array $children)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenuremovestring-id" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::remove(string $id)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenugetitemsstring-position" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::getItems(?string $position)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenurendersidebarstring-position" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::renderSidebar(?string $position)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adminmenurendertopnavstring-position" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AdminMenu::renderTopNav(?string $position)
+        AdminMenu::getItems(?string $position = null): array
       
     </span>
   </a>
@@ -3909,13 +4459,113 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#child-items-schema" class="md-nav__link">
+  <a href="#rendering-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🔏 Child Items Schema
+        🎨 Rendering Methods
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="🎨 Rendering Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adminmenurendersidebarstring-position-null-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::renderSidebar(?string $position = null): string
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adminmenurendertopnavstring-position-null-bool-nested-false-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AdminMenu::renderTopNav(?string $position = null, bool $nested = false): string
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internal-logic-active-states" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Internal Logic: Active States
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-menu-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Core Menu Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Implementation Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Implementation Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-registering-a-modular-parent-with-children" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Registering a Modular Parent with Children
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-injecting-into-a-core-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Injecting into a Core Menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-removing-navigation-for-specific-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Removing Navigation for Specific Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3950,280 +4600,182 @@
   
 
 
-<h1 id="programmable-admin-navigation-class">Programmable Admin Navigation Class<a class="headerlink" href="#programmable-admin-navigation-class" title="Permanent link">&para;</a></h1>
-<hr />
-<p>The <strong>AdminMenu</strong> class is the centralized navigation registry for the GeniXCMS administration panel. Introduced in <strong>v2.0.0</strong>, it replaces all hardcoded HTML navigation items with a programmable, data-driven system that allows modules and themes to inject, reorder, or remove menu items without touching any core template files.</p>
-<hr />
-<h2 id="how-it-works">⚡ How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><code>AdminMenu</code> is bootstrapped automatically by the <code>System</code> constructor: <code>new AdminMenu()</code> is called <strong>after</strong> all modules and themes are loaded. This means every module registered via <code>Hooks::attach('init', ...)</code> can safely add menu items during the system's own startup sequence.</p>
-<div class="codehilite"><pre><span></span><code>System::__construct()
-    └── new Mod()        ← Module function.php files run (can call AdminMenu::add())
-    └── new Theme()      ← Theme function.php runs (can call AdminMenu::add())
-    └── Hooks::run(&#39;init&#39;)
-    └── new AdminMenu()  ← Registers core menu + fires &#39;admin_menu_boot&#39; hook
+<h1 id="adminmenu-class-api-reference">AdminMenu Class API Reference<a class="headerlink" href="#adminmenu-class-api-reference" title="Permanent link">&para;</a></h1>
+<p>The <code>AdminMenu</code> class is a programmable registry for the GeniXCMS administrative dashboard. It centralizes all core and module-registered navigation items, allowing developers to inject menu entries without modifying template files.</p>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>Registration Phase</strong>: Always register your custom menu items during the <code>init</code> hook. This ensures that all classes are loaded and the system is ready to receive new navigation nodes.</p>
+<div class="codehilite"><pre><span></span><code><span class="nx">Hooks</span><span class="o">::</span><span class="na">attach</span><span class="p">(</span><span class="s1">&#39;init&#39;</span><span class="p">,</span> <span class="k">function</span><span class="p">(){</span>
+    <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">add</span><span class="p">([</span> <span class="o">...</span> <span class="p">]);</span>
+<span class="p">});</span>
 </code></pre></div>
+</blockquote>
 <hr />
-<h2 id="menu-item-schema">📐 Menu Item Schema<a class="headerlink" href="#menu-item-schema" title="Permanent link">&para;</a></h2>
-<p>Every menu item is defined as a PHP associative array with the following keys:</p>
+<h2 id="static-registration-methods">🏗️ Static Registration Methods<a class="headerlink" href="#static-registration-methods" title="Permanent link">&para;</a></h2>
+<h3 id="adminmenuaddarray-item-void"><code>AdminMenu::add(array $item): void</code><a class="headerlink" href="#adminmenuaddarray-item-void" title="Permanent link">&para;</a></h3>
+<p>Registers a new top-level or standalone admin menu item.</p>
+<ul>
+<li><strong><code>$item</code> Keys</strong>:<ul>
+<li><code>id</code>: Unique string identifier (required for parent/child mapping).</li>
+<li><code>label</code>: Display text. Use <code>_('Label')</code> for localization.</li>
+<li><code>icon</code>: Bootstrap Icons class (e.g., <code>bi bi-box</code>).</li>
+<li><code>url</code>: The target link (e.g., <code>index.php?page=my_page</code>).</li>
+<li><code>access</code>: Minimum user level (0=Admin ... 6=Member). Default: <code>6</code>.</li>
+<li><code>position</code>: <code>main</code> (Top), <code>management</code> (Middle), <code>settings</code> (Bottom), or <code>external</code>.</li>
+<li><code>order</code>: Numeric sort weight. Lower values appear higher. Default: <code>50</code>.</li>
+<li><code>aliases</code>: (Optional) Array of URLs that should also trigger the <code>active</code> state for this item.</li>
+<li><code>children</code>: (Optional) Array of child item definitions.</li>
+</ul>
+</li>
+</ul>
+<h3 id="adminmenuaddchildstring-parentid-array-child-void"><code>AdminMenu::addChild(string $parentId, array $child): void</code><a class="headerlink" href="#adminmenuaddchildstring-parentid-array-child-void" title="Permanent link">&para;</a></h3>
+<p>Injects a single sub-menu item into an existing parent menu.</p>
+<ul>
+<li><strong><code>$parentId</code></strong>: The <code>id</code> used when the parent was registered (e.g., <code>posts</code>).</li>
+<li><strong><code>$child</code></strong>: Array with <code>label</code>, <code>url</code>, and optionally <code>access</code> and <code>icon</code>.</li>
+</ul>
+<h3 id="adminmenuaddchildrenstring-parentid-array-children-void"><code>AdminMenu::addChildren(string $parentId, array $children): void</code><a class="headerlink" href="#adminmenuaddchildrenstring-parentid-array-children-void" title="Permanent link">&para;</a></h3>
+<p>Injects multiple sub-menu items at once.</p>
+<h3 id="adminmenuremovestring-id-void"><code>AdminMenu::remove(string $id): void</code><a class="headerlink" href="#adminmenuremovestring-id-void" title="Permanent link">&para;</a></h3>
+<p>Deregisters and removes a menu item from the registry by its ID.</p>
+<hr />
+<h2 id="data-retrieval-methods">⚡ Data &amp; Retrieval Methods<a class="headerlink" href="#data-retrieval-methods" title="Permanent link">&para;</a></h2>
+<h3 id="adminmenugetitemsstring-position-null-array"><code>AdminMenu::getItems(?string $position = null): array</code><a class="headerlink" href="#adminmenugetitemsstring-position-null-array" title="Permanent link">&para;</a></h3>
+<p>Retrieves registered items, sorted by their <code>order</code> value.
+- <strong><code>$position</code></strong>: Filter by a specific group (<code>main</code>, <code>management</code>, <code>settings</code>, <code>external</code>). If <code>null</code>, returns all items.</p>
+<hr />
+<h2 id="rendering-methods">🎨 Rendering Methods<a class="headerlink" href="#rendering-methods" title="Permanent link">&para;</a></h2>
+<h3 id="adminmenurendersidebarstring-position-null-string"><code>AdminMenu::renderSidebar(?string $position = null): string</code><a class="headerlink" href="#adminmenurendersidebarstring-position-null-string" title="Permanent link">&para;</a></h3>
+<p>Generates the HTML <code>&lt;li&gt;</code> structure for the GeniXCMS admin sidebar.</p>
+<ul>
+<li><strong>Behavior</strong>: It automatically checks user access for each item and applies the <code>active</code> class based on clever URL matching logic.</li>
+<li><strong>Logic</strong>: Handles nested <code>nav-tree</code> structures automatically for items with children.</li>
+</ul>
+<h3 id="adminmenurendertopnavstring-position-null-bool-nested-false-string"><code>AdminMenu::renderTopNav(?string $position = null, bool $nested = false): string</code><a class="headerlink" href="#adminmenurendertopnavstring-position-null-bool-nested-false-string" title="Permanent link">&para;</a></h3>
+<p>Generates Bootstrap-compatible dropdown navigation for the horizontal top bar.</p>
+<hr />
+<h2 id="internal-logic-active-states">🔍 Internal Logic: Active States<a class="headerlink" href="#internal-logic-active-states" title="Permanent link">&para;</a></h2>
+<p>The <code>AdminMenu</code> class uses a precise URL matching engine to highlight the active menu item:</p>
+<ol>
+<li><strong>ID Match</strong>: If the current <code>$_GET['page']</code> or <code>$_GET['mod']</code> matches the menu <code>id</code>.</li>
+<li><strong>URL Match</strong>: It parses the <code>url</code> and compares parameters (<code>page</code>, <code>mod</code>, <code>view</code>, <code>act</code>, <code>type</code>, <code>sel</code>) with the current request.</li>
+<li><strong>Aliases</strong>: Supports an <code>aliases</code> array for additional URL patterns that trigger the active state (e.g., matching the "Add" and "Edit" pages for a menu item).</li>
+<li><strong>Child Inheritance</strong>: A parent menu is automatically marked as <code>active</code> if any of its children are currently viewed.</li>
+</ol>
+<hr />
+<h2 id="core-menu-structure">🛠️ Core Menu Structure<a class="headerlink" href="#core-menu-structure" title="Permanent link">&para;</a></h2>
+<p>The system automatically boots several core menu groups:</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Key</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Default</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong><code>id</code></strong></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;"><code>menu_xxxx</code></td>
-<td style="text-align: left;">Unique identifier. Used for active-state detection.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>label</code></strong></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;"><code>'Menu Item'</code></td>
-<td style="text-align: left;">Display text. Always wrap in <code>_()</code> for i18n.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>icon</code></strong></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;"><code>'bi bi-circle'</code></td>
-<td style="text-align: left;"><strong>Bootstrap Icons</strong> class (e.g., <code>bi bi-cart3</code>).</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>url</code></strong></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;"><code>'#'</code></td>
-<td style="text-align: left;">Target URL. Relative to the admin directory.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>access</code></strong></td>
-<td style="text-align: left;"><code>int</code></td>
-<td style="text-align: left;"><code>6</code></td>
-<td style="text-align: left;">Minimum user level required to see this item.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>position</code></strong></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;"><code>'external'</code></td>
-<td style="text-align: left;">Navigation region. See <strong>Positions</strong> below.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>order</code></strong></td>
-<td style="text-align: left;"><code>int</code></td>
-<td style="text-align: left;"><code>50</code></td>
-<td style="text-align: left;">Sort weight. Lower numbers appear higher/earlier.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>children</code></strong></td>
-<td style="text-align: left;"><code>array</code></td>
-<td style="text-align: left;"><code>[]</code></td>
-<td style="text-align: left;">Optional sub-items for dropdown/collapsible menus.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="access-levels">Access Levels<a class="headerlink" href="#access-levels" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Value</th>
-<th style="text-align: left;">Role</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>0</code></td>
-<td style="text-align: left;">Administrator</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>1</code></td>
-<td style="text-align: left;">Supervisor</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>2</code></td>
-<td style="text-align: left;">Editor</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>3</code></td>
-<td style="text-align: left;">Author</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>4</code></td>
-<td style="text-align: left;">Contributor</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>5</code></td>
-<td style="text-align: left;">VIP Member</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>6</code></td>
-<td style="text-align: left;">General Member</td>
-</tr>
-</tbody>
-</table>
-<h3 id="menu-positions">Menu Positions<a class="headerlink" href="#menu-positions" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
+<th style="text-align: left;">ID</th>
 <th style="text-align: left;">Position</th>
-<th style="text-align: left;">Sidebar Location</th>
-<th style="text-align: left;">Top Navbar Location</th>
+<th style="text-align: left;">Label</th>
+<th style="text-align: left;">Children</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td style="text-align: left;"><code>posts</code></td>
 <td style="text-align: left;"><code>main</code></td>
-<td style="text-align: left;">Below "Main Navigation" label</td>
-<td style="text-align: left;">After Dashboard link</td>
+<td style="text-align: left;">Posts</td>
+<td style="text-align: left;">All Posts, Categories, Tags</td>
 </tr>
 <tr>
+<td style="text-align: left;"><code>pages</code></td>
+<td style="text-align: left;"><code>main</code></td>
+<td style="text-align: left;">Pages</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>comments</code></td>
+<td style="text-align: left;"><code>main</code></td>
+<td style="text-align: left;">Comments</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>media</code></td>
+<td style="text-align: left;"><code>main</code></td>
+<td style="text-align: left;">Media</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>users</code></td>
 <td style="text-align: left;"><code>management</code></td>
-<td style="text-align: left;">Below "Management" label</td>
-<td style="text-align: left;">As a separate nav item or dropdown</td>
+<td style="text-align: left;">Users</td>
+<td style="text-align: left;">All Users, ACL Manager</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>themes</code></td>
+<td style="text-align: left;"><code>management</code></td>
+<td style="text-align: left;">Appearance</td>
+<td style="text-align: left;">Themes, Menus, Widgets</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>modules</code></td>
+<td style="text-align: left;"><code>management</code></td>
+<td style="text-align: left;">Modules</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>system</code></td>
+<td style="text-align: left;"><code>management</code></td>
+<td style="text-align: left;">System</td>
+<td style="text-align: left;">System Health, Updates</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>devtools</code></td>
+<td style="text-align: left;"><code>management</code></td>
+<td style="text-align: left;">Dev Tools</td>
+<td style="text-align: left;">Asset Inspector, Hook Inspector</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>settings</code></td>
-<td style="text-align: left;">Below management items</td>
-<td style="text-align: left;">As a "Settings" dropdown</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>external</code></td>
-<td style="text-align: left;">Below "External" label</td>
-<td style="text-align: left;">Inside the "External" dropdown</td>
+<td style="text-align: left;"><code>settings</code></td>
+<td style="text-align: left;">Settings</td>
+<td style="text-align: left;">Global, Media, Multilanguage, etc.</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="public-api-reference">⚙️ Public API Reference<a class="headerlink" href="#public-api-reference" title="Permanent link">&para;</a></h2>
-<h3 id="adminmenuaddarray-item"><code>AdminMenu::add(array $item)</code><a class="headerlink" href="#adminmenuaddarray-item" title="Permanent link">&para;</a></h3>
-<p>Registers a new navigation item into the menu registry.</p>
+<h2 id="implementation-examples">💡 Implementation Examples<a class="headerlink" href="#implementation-examples" title="Permanent link">&para;</a></h2>
+<h3 id="1-registering-a-modular-parent-with-children">1. Registering a Modular Parent with Children<a class="headerlink" href="#1-registering-a-modular-parent-with-children" title="Permanent link">&para;</a></h3>
+<p>Ideal for new modules that need their own category in the sidebar.</p>
 <div class="codehilite"><pre><span></span><code><span class="nx">AdminMenu</span><span class="o">::</span><span class="na">add</span><span class="p">([</span>
-    <span class="s1">&#39;id&#39;</span>       <span class="o">=&gt;</span> <span class="s1">&#39;my_module&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;label&#39;</span>    <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;My Module&#39;</span><span class="p">),</span>
+    <span class="s1">&#39;id&#39;</span>       <span class="o">=&gt;</span> <span class="s1">&#39;inventory&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;label&#39;</span>    <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Inventory&#39;</span><span class="p">),</span>
     <span class="s1">&#39;icon&#39;</span>     <span class="o">=&gt;</span> <span class="s1">&#39;bi bi-box-seam&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;url&#39;</span>      <span class="o">=&gt;</span> <span class="s1">&#39;index.php?page=mods&amp;mod=my_module&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;access&#39;</span>   <span class="o">=&gt;</span> <span class="mi">3</span><span class="p">,</span>
-    <span class="s1">&#39;position&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;external&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;order&#39;</span>    <span class="o">=&gt;</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s1">&#39;url&#39;</span>      <span class="o">=&gt;</span> <span class="s1">&#39;index.php?page=mods&amp;mod=inventory&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;access&#39;</span>   <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">,</span> <span class="c1">// Supervisor+</span>
+    <span class="s1">&#39;position&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;main&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;order&#39;</span>    <span class="o">=&gt;</span> <span class="mi">45</span><span class="p">,</span>
+    <span class="s1">&#39;children&#39;</span> <span class="o">=&gt;</span> <span class="p">[</span>
+        <span class="p">[</span><span class="s1">&#39;label&#39;</span> <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;All Products&#39;</span><span class="p">),</span> <span class="s1">&#39;url&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;index.php?page=mods&amp;mod=inventory&#39;</span><span class="p">],</span>
+        <span class="p">[</span><span class="s1">&#39;label&#39;</span> <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Warehouses&#39;</span><span class="p">),</span>   <span class="s1">&#39;url&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;index.php?page=mods&amp;mod=inventory&amp;view=stocks&#39;</span><span class="p">],</span>
+        <span class="p">[</span><span class="s1">&#39;label&#39;</span> <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Suppliers&#39;</span><span class="p">),</span>    <span class="s1">&#39;url&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;index.php?page=mods&amp;mod=inventory&amp;view=suppliers&#39;</span><span class="p">],</span>
+    <span class="p">]</span>
 <span class="p">]);</span>
 </code></pre></div>
-<hr />
-<h3 id="adminmenuaddchildstring-parentid-array-child"><code>AdminMenu::addChild(string $parentId, array $child)</code><a class="headerlink" href="#adminmenuaddchildstring-parentid-array-child" title="Permanent link">&para;</a></h3>
-<p>Injects a single sub-menu item into an existing parent menu identified by its <strong>id</strong>.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Parameter</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Required</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong><code>$parentId</code></strong></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;">✅</td>
-<td style="text-align: left;">The ID of the parent (e.g. <code>'posts'</code>).</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong><code>$child</code></strong></td>
-<td style="text-align: left;"><code>array</code></td>
-<td style="text-align: left;">✅</td>
-<td style="text-align: left;">Sub-item definition: <code>['label', 'url', 'icon', 'access']</code>.</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="adminmenuaddchildrenstring-parentid-array-children"><code>AdminMenu::addChildren(string $parentId, array $children)</code><a class="headerlink" href="#adminmenuaddchildrenstring-parentid-array-children" title="Permanent link">&para;</a></h3>
-<p>Batch-injects multiple sub-menu items into an existing parent item.</p>
-<div class="codehilite"><pre><span></span><code><span class="nx">AdminMenu</span><span class="o">::</span><span class="na">addChildren</span><span class="p">(</span><span class="s1">&#39;posts&#39;</span><span class="p">,</span> <span class="p">[</span>
-    <span class="p">[</span><span class="s1">&#39;label&#39;</span> <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;New Sub&#39;</span><span class="p">),</span> <span class="s1">&#39;url&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;...&#39;</span><span class="p">],</span>
-    <span class="p">[</span><span class="s1">&#39;label&#39;</span> <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;Another&#39;</span><span class="p">),</span> <span class="s1">&#39;url&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;...&#39;</span><span class="p">]</span>
+<h3 id="2-injecting-into-a-core-menu">2. Injecting into a Core Menu<a class="headerlink" href="#2-injecting-into-a-core-menu" title="Permanent link">&para;</a></h3>
+<p>Use this to add specific tools to existing GeniXCMS categories.</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Add a &quot;SEO Audit&quot; link under the standard &quot;Settings&quot; menu</span>
+<span class="nx">AdminMenu</span><span class="o">::</span><span class="na">addChild</span><span class="p">(</span><span class="s1">&#39;settings&#39;</span><span class="p">,</span> <span class="p">[</span>
+    <span class="s1">&#39;label&#39;</span>  <span class="o">=&gt;</span> <span class="nx">_</span><span class="p">(</span><span class="s1">&#39;SEO Audit&#39;</span><span class="p">),</span>
+    <span class="s1">&#39;url&#39;</span>    <span class="o">=&gt;</span> <span class="s1">&#39;index.php?page=mods&amp;mod=seonix&amp;act=audit&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;access&#39;</span> <span class="o">=&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="c1">// Admin Only</span>
+    <span class="s1">&#39;icon&#39;</span>   <span class="o">=&gt;</span> <span class="s1">&#39;bi bi-shield-check&#39;</span>
 <span class="p">]);</span>
 </code></pre></div>
-<hr />
-<h3 id="adminmenuremovestring-id"><code>AdminMenu::remove(string $id)</code><a class="headerlink" href="#adminmenuremovestring-id" title="Permanent link">&para;</a></h3>
-<p>Removes a previously registered menu item by its unique <code>id</code>.</p>
-<div class="codehilite"><pre><span></span><code><span class="c1">// Remove the core Comments menu item</span>
+<h3 id="3-removing-navigation-for-specific-roles">3. Removing Navigation for Specific Roles<a class="headerlink" href="#3-removing-navigation-for-specific-roles" title="Permanent link">&para;</a></h3>
+<p>You can dynamically hide core features if they are not needed for certain site architectures.</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Hide the &quot;Comments&quot; menu globally if not used</span>
 <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">remove</span><span class="p">(</span><span class="s1">&#39;comments&#39;</span><span class="p">);</span>
 </code></pre></div>
 <hr />
-<h3 id="adminmenugetitemsstring-position"><code>AdminMenu::getItems(?string $position)</code><a class="headerlink" href="#adminmenugetitemsstring-position" title="Permanent link">&para;</a></h3>
-<p>Returns a sorted array of all registered items, optionally filtered by position.</p>
-<div class="codehilite"><pre><span></span><code><span class="nv">$mainItems</span> <span class="o">=</span> <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">getItems</span><span class="p">(</span><span class="s1">&#39;main&#39;</span><span class="p">);</span>
-</code></pre></div>
-<hr />
-<h3 id="adminmenurendersidebarstring-position"><code>AdminMenu::renderSidebar(?string $position)</code><a class="headerlink" href="#adminmenurendersidebarstring-position" title="Permanent link">&para;</a></h3>
-<p>Renders the <code>&lt;li&gt;</code> HTML for the admin <strong>sidebar</strong> navigation.</p>
-<div class="codehilite"><pre><span></span><code><span class="k">echo</span> <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">renderSidebar</span><span class="p">(</span><span class="s1">&#39;main&#39;</span><span class="p">);</span>
-<span class="k">echo</span> <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">renderSidebar</span><span class="p">(</span><span class="s1">&#39;external&#39;</span><span class="p">);</span>
-</code></pre></div>
-<hr />
-<h3 id="adminmenurendertopnavstring-position"><code>AdminMenu::renderTopNav(?string $position)</code><a class="headerlink" href="#adminmenurendertopnavstring-position" title="Permanent link">&para;</a></h3>
-<p>Renders the Bootstrap <code>&lt;li&gt;</code> items for the horizontal <strong>top navbar</strong>.</p>
-<div class="codehilite"><pre><span></span><code><span class="k">echo</span> <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">renderTopNav</span><span class="p">(</span><span class="s1">&#39;main&#39;</span><span class="p">);</span>
-<span class="k">echo</span> <span class="nx">AdminMenu</span><span class="o">::</span><span class="na">renderTopNav</span><span class="p">(</span><span class="s1">&#39;settings&#39;</span><span class="p">);</span>
-</code></pre></div>
-<hr />
-<h2 id="child-items-schema">🔏 Child Items Schema<a class="headerlink" href="#child-items-schema" title="Permanent link">&para;</a></h2>
-<p>The <code>children</code> key accepts an array of sub-items. Each child follows the same schema but does <strong>not</strong> support nested <code>children</code> (one level deep only).</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Key</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Required</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>label</code></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;">✅</td>
-<td style="text-align: left;">Display text for the sub-item.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>url</code></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;">✅</td>
-<td style="text-align: left;">Target URL for this sub-menu entry.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>icon</code></td>
-<td style="text-align: left;"><code>string</code></td>
-<td style="text-align: left;">❌</td>
-<td style="text-align: left;">Optional icon for this child item.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>access</code></td>
-<td style="text-align: left;"><code>int</code></td>
-<td style="text-align: left;">❌</td>
-<td style="text-align: left;">Override access level for this child.</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<blockquote>
-<p>[!IMPORTANT]
-<strong>Active State Detection</strong>: The system auto-detects which menu item is active by matching the current <code>$_GET['page']</code> or <code>$_GET['mod']</code> against the <code>id</code> field and <code>url</code> strings of each item. Always use a <strong>unique <code>id</code></strong> that matches your module's <code>page</code> or <code>mod</code> query parameter.</p>
-</blockquote>
-<hr />
-<blockquote>
-<p>[!TIP]
-<strong>Ordering Strategy</strong>: All core items use <code>order</code> values that are multiples of 10 (10, 20, 30...). Use odd numbers or values between core items (e.g., <code>15</code>, <code>25</code>) to inject items between existing entries.</p>
-</blockquote>
-<hr />
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../how-to/using-admin-menu/">How-To: Admin Menu Registration</a> — Practical module and theme integration guide.</li>
-<li><a href="../hooks.class/">Hooks Class</a> — Using hooks for extended customization.</li>
-<li><a href="../mod.class/">Mod Class</a> — Module lifecycle and loading order.</li>
-<li><a href="../user.class/">User Class</a> — Access level system reference.</li>
+<li><a href="../../how-to/using-admin-menu/">Admin Menu Registration Guide</a> — Step-by-step implementation guide for modules.</li>
+<li><a href="../../user-guide/acl-manager/">ACL Manager Guide</a> — Understanding the <code>access</code> level requirements.</li>
 </ul>
 
 
